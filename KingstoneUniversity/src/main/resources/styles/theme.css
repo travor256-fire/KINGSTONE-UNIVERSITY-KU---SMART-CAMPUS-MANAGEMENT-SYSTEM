@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Kingstone University (KU) - Academic Theme Stylesheet
+   Palette: Royal Green, Gold, Cream, Black
+   ========================================================================== */
+
+:root {
+  --ku-royal-green: #0B3D2E;
+  --ku-royal-green-dark: #062419;
+  --ku-royal-green-light: #14543E;
+  --ku-gold: #D4AF37;
+  --ku-gold-dark: #B8860B;
+  --ku-gold-light: #F3E5AB;
+  --ku-cream: #FAF7EE;
+  --ku-cream-light: #FFFDF0;
+  --ku-cream-border: #E5DEC9;
+  --ku-black: #0B0F19;
+  --ku-black-muted: #1E293B;
+  --ku-text-muted: #64748B;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--ku-cream);
+  color: var(--ku-black);
+  margin: 0;
+  padding: 0;
+}
+
+.ku-header {
+  background-color: var(--ku-royal-green);
+  color: var(--ku-gold);
+  padding: 1.25rem 2rem;
+  border-bottom: 3px solid var(--ku-gold);
+}
+
+.ku-btn-primary {
+  background-color: var(--ku-royal-green);
+  color: var(--ku-gold);
+  border: 1px solid var(--ku-gold);
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ku-btn-gold {
+  background-color: var(--ku-gold);
+  color: var(--ku-royal-green-dark);
+  border: 1px solid var(--ku-gold-dark);
+  padding: 0.5rem 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ku-card {
+  background-color: var(--ku-cream-light);
+  border: 1px solid var(--ku-cream-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
